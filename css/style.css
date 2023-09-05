@@ -1,0 +1,77 @@
+main {
+    width: 28%;
+    padding: 15px 10px 15px 10px;
+    text-align: justify;
+    border-radius: 5px;
+    background: white;
+    margin-left: 450px;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+    height: 300px;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign {
+    font-size: 25px;
+    font: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form input {
+    width: 300px;
+    padding: 10px;
+    border: 0px 0px 25px 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.account {
+    border-bottom: none;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+        sans-serif;
+    outline: none;
+}
+.account a{
+    text-decoration: none;
+}
+.sign-in {
+    font-size: medium;
+}
+.sign-in a{
+    text-decoration: none;
+}
+
+button {
+    margin-left: 55%;
+    border-color: blue;
+    background-color: blue;
+    padding: 15px 10px 15px 10px;
+    display: block;
+    width: 35%;
+    color: aliceblue;
+    height: 45px;
+}
+
+.key {
+
+    padding: 15px 10px 15px 10px;
+    margin-left: 33.5%;
+    display: flex;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+    width: 28%;
+    margin-top: 2.5%;
+    background-color: azure;
+}
+
+.key:hover {
+    background-color: aqua;
+}
+
+body {
+    background-image: url("../image/imm.jpg");
+    background-repeat: none;
+    background-size: cover;
+
+} 

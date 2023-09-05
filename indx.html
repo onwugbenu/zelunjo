@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="shortcut icon" type="image/png" href="image/key.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Zels </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">News</a>
+        <a href="javascript:void(0)" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+    <div style="padding-left: 16px;">
+        <h2>Reponsive Topnav example</h2>
+        <p> Resize the browers window to see how it works</p>
+        <h1>text shadow effect</h1>
+
+    </div>
+    <div class="set">
+        <p>With CSS, you can control the color, font, the size of text, the spacing between elements,
+            how elements are positioned and laid out, what background images or background colors are
+            to be used, different displays for different devices and screen sizes, and much more
+            Tip: The word cascading means that a style applied to a parent element will also apply to
+            all children elements within the parent. So, if you set the color of the body text to "blue",
+            all headings, paragraphs, and other text elements within the body will also get the same color
+            (unless you specify something else)!</p>
+    </div>
+</body>
+
+</html>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
